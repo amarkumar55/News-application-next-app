@@ -1,58 +1,138 @@
+# 📰 Next.js GraphQL News Reader
 
-News EXpress Application with NextJS + React JS + GraphSQl + stepzen 
+A modern, responsive **News Reader Application** built using **Next.js 13.4**, **React**, and **GraphQL**, designed to deliver a fast and personalized news browsing experience with category filtering and theme switching.
 
-Please follow given step in order to run application in your local environment 
+The application leverages **StepZen** to simplify GraphQL integration over REST-based news APIs.
 
-Step 1 => Please take pull from git repo 
+---
 
-          https://github.com/Amar9691/News-express-next-app.git
+## 🚀 Overview
+
+This application allows users to explore news articles across multiple categories, view detailed stories, and customize their reading experience with light and dark themes.
+
+It is built using the latest **Next.js App Router**, ensuring optimal performance through server-side rendering and efficient data fetching.
+
+---
+
+## ✨ Key Features
+
+- 🗂️ Browse news by categories
+- 📰 Detailed article view
+- 🌗 Light / Dark theme switching
+- ⚡ Fast page rendering with Next.js App Router
+- 🔄 GraphQL-based data fetching
+- 📱 Fully responsive UI
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+- **Next.js 13.4 (App Router)**
+- **React.js**
+- **TypeScript**
+
+### Data & APIs
+- **GraphQL**
+- **StepZen**
+- **Media Stack API**
+
+### UI & UX
+- **Tailwind CSS**
+- **Heroicons**
+- **Next-Themes (Dark / Light Mode)**
+- **React Time Ago**
+
+---
+
+## 🔄 Data Flow Architecture
+
+```text
+Media Stack API (REST)
+↓
+StepZen
+↓
+GraphQL
+↓
+Next.js App Router
+
+```
 
 
-Step 2 => Install required packages to run application 
+This architecture enables clean data querying and efficient client-server communication.
+
+---
+
+## 📂 Project Structure (High-Level
+
+```text
+app/
+├── page.tsx
+├── layout.tsx
+├── components/
+├── graphql/
+├── styles/
+```
 
 
-         NPM INSTALL 
+## ⚙️ Getting Started
 
+### 1️⃣ Clone the Repository
 
-Step 3 =>  Create mediastack account for news api 
+```bash
+          git clone https://github.com/amarkumar55/News-application-next-app
+          cd Next.js-GraphQL-News-Reader
+```
 
-          Please copy your api key and set in .env file 
+### Install Dependencies
+     npm install
+     # or
+     yarn install
 
-          using following key 
+### Environment Variables
 
-          NEXT_PUBLIC_MEDIA_API_KEY=
-
-Step 4 => Please step account at stepzen plaform and copy your api and step in env file 
-
-          NEXT_PUBLIC_STEPZEN_API_KEY=
-
-
-Step 5 => after all these steps it is time to setup stepzen in your term
-
-          please run following command in terminal 
-
-          stepzen login 
-
-          it will ask you for username and admin api key so paste it from stepzen dashboard
-
-Step 6 => run following command to import url 
-
-         stepzen import curl  http://api.mediastack.com/v1/news?access_key=Your_API_KEY 
-
-         replace Your_api_key with your mediastack api key 
-
-
-Step 7 =>   Finally run stepzen start to load your inforamtion to stepzen dashboard 
-
-
-step 8 = > Run your application using 
-
-          NPM RUN DEV or Yarn dev
-
+          Create a .env.local file and configure:
           
+          STEPZEN_API_KEY=your_stepzen_api_key
+          MEDIASTACK_API_KEY=your_mediastack_api_key
 
-                
+### Run the Application
+
+          npm run dev
+          # or
+          yarn dev
+
+
+Application will be available at:
+
+          http://localhost:3000
+
+
+🎯 Use Cases
+
+          News aggregation platforms
           
+          Content discovery applications
+          
+          GraphQL-powered frontend demos
+          
+          Next.js App Router learning projects
 
 
-    
+📌 Learning Highlights
+
+          Next.js 13 App Router
+          
+          GraphQL integration using StepZen
+          
+          REST-to-GraphQL API transformation
+          
+          Theme management in Next.js
+          
+          Responsive UI design with Tailwind CSS
+
+📄 License
+
+This project is intended for educational and demonstration purposes.
+
+
