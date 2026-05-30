@@ -62,7 +62,7 @@ Next.js App Router        ← Server components fetch data at the edge
 
 ```bash
 # Clone the repository
-git clone https://github.com/amarkumar55/News-application-next-app
+git clone https://github.com/amarskdev/News-application-next-app
 cd News-application-next-app
 
 # Install dependencies
@@ -126,7 +126,7 @@ app/
 ## 👤 Author
 
 **Amar Kumar** — Senior Backend Engineer · IBM Certified AI Engineer  
-📌 [LinkedIn](https://www.linkedin.com/in/amarkumar241429017) · 💻 [GitHub](https://github.com/amarkumar55)
+📌 [LinkedIn](https://www.linkedin.com/in/amarskdev) · 💻 [GitHub](https://github.com/amarskdev)
 
 ---
 
